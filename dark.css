@@ -120,6 +120,8 @@ span.discord-error {
   margin-bottom:0;
   list-style-type:none !important;
   display: block;
+  min-height: 200px;
+  overflow-y: auto;
 }
 .discord-channel{
   font-weight:bold!important;
