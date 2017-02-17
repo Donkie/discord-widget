@@ -51,7 +51,8 @@ var discordWidget = discordWidget || (function(){
           default:
           themeFile = 'light.min.css';
         }
-        $('head').append('<link rel="stylesheet" href="http://discord.deliriousdrunkards.com/' + themeFile + '" type="text/css" />');
+        //$('head').append('<link rel="stylesheet" href="http://discord.deliriousdrunkards.com/' + themeFile + '" type="text/css" />');
+        $('head').append('<link rel="stylesheet" href="/styles/discordwidget/dark.css" type="text/css" />');
 
         var url = 'https://discordapp.com/api/servers/' + _params.serverId + '/embed.json';
 
